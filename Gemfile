@@ -23,9 +23,6 @@ end
 
 gem 'jquery-rails'
 
-gem 'torquebox'
-gem 'torquebox-server'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -40,3 +37,5 @@ gem 'torquebox-server'
 
 # To use debugger
 # gem 'debugger'
+
+gem "torquebox", "2.3.0"

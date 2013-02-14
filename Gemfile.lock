@@ -57,7 +57,6 @@ GEM
       thor (>= 0.14, < 2.0)
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
-    json (1.7.7)
     json (1.7.7-java)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -135,8 +134,6 @@ GEM
       rake (>= 0.8.7)
     torquebox-security (2.3.0-java)
       torquebox-core (= 2.3.0)
-    torquebox-server (2.3.0-java)
-      torquebox (= 2.3.0)
     torquebox-stomp (2.3.0)
       torquebox-core (= 2.3.0)
       torquebox-messaging (= 2.3.0)
@@ -162,6 +159,5 @@ DEPENDENCIES
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
   therubyrhino
-  torquebox
-  torquebox-server
+  torquebox (= 2.3.0)
   uglifier (>= 1.0.3)
