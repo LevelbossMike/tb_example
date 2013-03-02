@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require vendor/stilts-stomp
+//= require vendor/handlebars
 //= require_tree .
