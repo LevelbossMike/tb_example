@@ -3,6 +3,10 @@ TorqueBox.configure do
     context '/'
   end
 
+  environment do
+    RAILS_ENV 'production'
+  end
+
   ruby do
     version '1.9'
   end
